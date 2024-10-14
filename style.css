@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "rocket";
+    src: 
+        url("rocket_italic-webfont.woff2") format("woff2"),
+        url("rocket_italic-webfont.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    margin: 0 200px;
+    padding: 0;
+    background-color: black;
+}
+
+.image {
+    background-image: url(Photos/ivan-vranic-w4NMS5h1xV4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form {
+    background-color: #F8F8FF;
+    width: 60%;
+    height: 100vh;
+}
+
+.title {
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-top: 20vh;
+    height: 3.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title > h1 {
+    font-family: "rocket", sans-serif;
+    font-size: 3rem;
+    align-items: center;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+}
+
+footer > a {
+    color: white;
+    text-decoration: underline;
+}
+
+.header {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    margin: 30px;
+    padding: 20px;
+    font-family: Impact, sans-serif;
+}
+
+form {
+    box-sizing: border-box;
+    font-size: 0.7rem;
+}
+
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-part {
+    flex: 0 0 calc(50% - 10px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-part label {
+    font-size: inherit;
+}
+
+.form-part input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: inherit;
+}
+
+.button-container {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #87CEEB;
+}
+
+.button-container > p {
+    font-size: 0.9rem;
+}
+
+p > a {
+    font-weight: bold;
+    color: #87CEEB;
+    text-decoration: none;
+}
